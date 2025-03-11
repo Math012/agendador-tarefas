@@ -32,6 +32,10 @@ dependencies {
 	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
 	implementation("io.jsonwebtoken:jjwt-api:0.12.6")
 
+	implementation ("org.mapstruct:mapstruct:1.5.3.Final")
+	annotationProcessor ("org.mapstruct:mapstruct-processor:1.5.3.Final")
+	annotationProcessor ("org.projectlombok:lombok-mapstruct-binding:0.2.0")
+
 	compileOnly("org.projectlombok:lombok")
 
 	runtimeOnly("io.jsonwebtoken:jjwt-impl:0.12.6")
